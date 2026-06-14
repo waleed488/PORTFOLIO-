@@ -23,13 +23,4 @@ export const techStack = [
   { name: "JWT Auth", icon: "jwt" },
   { name: "TanStack Query", icon: "tanstack" },
   { name: "Zod", icon: "zod" },
-
-  // 👇 Added skills
- { name: "JavaScript", icon: "javascript" },
-{ name: "HTML", icon: "html" },
-{ name: "CSS", icon: "css" },
-{ name: "TailwindCSS", icon: "tailwindcss" },
-{ name: "Java", icon: "java" },
-{ name: "C", icon: "c" },
-{ name: "C#", icon: "c#" },
 ]

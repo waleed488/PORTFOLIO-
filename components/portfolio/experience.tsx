@@ -1,8 +1,8 @@
 "use client"
 
-import { experiences, totalExperience } from "@/data/experience"
 import { motion } from "framer-motion"
 import { Briefcase, Calendar, ImageIcon } from "lucide-react"
+import { experiences, totalExperience } from "@/data/experience"
 import Image from "next/image"
 
 export function Experience() {
@@ -73,7 +73,7 @@ export function Experience() {
                 >
                   {exp.certificateImage ? (
                     <Image
-                      src="/elite.png"
+                      src={exp.certificateImage}
                       alt={`${exp.company} Certificate`}
                       fill
                       className="object-cover"

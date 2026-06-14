@@ -17,7 +17,7 @@ export const experiences: Experience[] = [
     description:
       "Worked on developing and maintaining web applications using React.js and Node.js. Collaborated with senior developers to implement new features and optimize existing codebase.",
     skills: ["React.js", "Node.js", "MongoDB", "Express.js", "Git"],
-    certificateImage: "/certificates/elite-tech.jpg",
+    certificateImage: "/elite.png",
   },
 ]
 

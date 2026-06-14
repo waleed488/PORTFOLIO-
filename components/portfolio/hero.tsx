@@ -1,10 +1,10 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
-import { personalInfo, socialLinks } from "@/data/personal"
-import { motion } from "framer-motion"
-import { ArrowDown, Github, Instagram, Linkedin, MapPin } from "lucide-react"
 import Image from "next/image"
+import { motion } from "framer-motion"
+import { Github, Linkedin, Instagram, MapPin, ArrowDown } from "lucide-react"
+import { personalInfo, socialLinks } from "@/data/personal"
+import { Button } from "@/components/ui/button"
 
 const socialIcons = [
   { icon: Github, href: socialLinks.github, label: "GitHub" },

@@ -1,8 +1,8 @@
 "use client"
 
-import { personalInfo, socialLinks } from "@/data/personal"
 import { motion } from "framer-motion"
-import { Github, Instagram, Linkedin } from "lucide-react"
+import { Github, Linkedin, Instagram, Heart } from "lucide-react"
+import { personalInfo, socialLinks } from "@/data/personal"
 
 const socialIcons = [
   { icon: Github, href: socialLinks.github, label: "GitHub" },
@@ -43,8 +43,8 @@ export function Footer() {
 
           {/* Footer Bottom */}
           <div className="flex items-center gap-1 text-sm text-muted-foreground text-center flex-wrap justify-center">
-            <span>Built </span>
-           
+            <span>Built with</span>
+            <Heart className="h-4 w-4 text-primary fill-primary" />
             <span>by {personalInfo?.name || "Developer"}</span>
             <span className="mx-2">|</span>
             <span>{currentYear}</span>

@@ -1,7 +1,7 @@
 "use client"
 
-import { techStack } from "@/data/personal"
 import { motion } from "framer-motion"
+import { techStack } from "@/data/personal"
 
 const techIcons: Record<string, React.ReactNode> = {
   react: (
@@ -49,47 +49,6 @@ const techIcons: Record<string, React.ReactNode> = {
       <path d="M19.088 2.477L24 7.606 12.521 19.99l-.925 1.763L9.2 24l.906-1.728L12 19.097l8.088-8.88-3.69-4.263zm-14.176 0L10 7.606l-5.568 6.204H1.12l3.792-4.328zm0 12.47h5.984l-3.446 3.836zm9.088-2.028l-3.792 4.328H5.912L10 12.919z" />
     </svg>
   ),
-  javascript: (
-  <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor">
-    <path d="M3 3h18v18H3V3zm9 14c.6 1.2 1.4 2 3 2 2 0 3.2-1.2 3.2-3.2 0-2.2-1.3-3-3.5-3h-1v2h1c1 0 1.5.3 1.5 1 0 .7-.5 1-1.2 1-.9 0-1.3-.4-1.8-1.2L12 17zm-2.5 0c-.4.7-1 1.2-2 1.2-1.2 0-2-.6-2.5-1.6l1.6-1c.3.6.6.9 1.1.9s.8-.2.8-.9V10h2v6.2z"/>
-  </svg>
-),
-
-html: (
-  <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor">
-    <path d="M3 2l1.5 17L12 22l7.5-3L21 2H3zm15 5H8l.2 2h9.6l-.2 2H8.5l.3 3.5 3.2 1.1 3.2-1.1.2-2.1h2l-.3 3.8L12 19l-5.1-1.8L6 7h12l.2-2z"/>
-  </svg>
-),
-
-css: (
-  <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor">
-    <path d="M3 2l1.5 17L12 22l7.5-3L21 2H3zm15 5H8l.2 2h9.6l-.2 2H8.5l.3 3 3.2 1 3.2-1 .2-2h2l-.3 3.5L12 19l-5-1.8L6 7h12l.2-2z"/>
-  </svg>
-),
-
-tailwindcss: (
-  <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor">
-    <path d="M12 6c-3 0-4.9 1.5-5.8 4.5 1.4-1.5 3-2 4.8-1.5 1 .3 1.7 1 2.5 1.8C15 11.5 16.5 12 18 11c3-2 4.9-1.5 5.8-4.5-1.4 1.5-3 2-4.8 1.5-1-.3-1.7-1-2.5-1.8C15 6.5 13.5 6 12 6z"/>
-  </svg>
-),
-
-java: (
-  <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor">
-    <path d="M12 2c-2 2 1 3-1 5s-3 3-3 5c0 2 2 4 6 4s6-2 6-4c0-2-1-3-3-5s1-3-1-5M8 18c1 2 7 2 8 0"/>
-  </svg>
-),
-
-c: (
-  <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor">
-    <path d="M12 2a10 10 0 100 20c2 0 4-1 5-2l-2-2c-1 .8-2 .9-3 .9a6 6 0 110-12c1 0 2 .2 3 1l2-2c-1-1-3-2-5-2z"/>
-  </svg>
-),
-
-"c#": (
-  <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor">
-    <path d="M12 2l2 2v6l-2 2-2-2V4l2-2zm-6 7h4v6H6V9zm8 0h4v6h-4V9zm-8 7h4v6H6v-6zm8 0h4v6h-4v-6z"/>
-  </svg>
-),
 }
 
 export function TechStack() {
