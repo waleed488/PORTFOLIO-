@@ -136,7 +136,7 @@ export function Hero() {
               {/* Image container */}
               <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-background">
                 <Image
-                  src="/waleed.jpeg"
+                  src="/w.png"
                   alt={personalInfo.name}
                   fill
                   className="object-cover"
